@@ -1,0 +1,35 @@
+body{
+    background-color: #2C3333;
+    color: white
+}
+
+.título-destaque {
+    color: #0E8388;
+}
+
+h1{ 
+    color: #CBE4DE;
+    text-align: center
+} 
+
+h2 {
+    text-align: center
+}
+
+p{
+    text-align:left
+}
+
+a {
+    color: white;
+    border-style: outset;
+    background-color: #0E8388
+}
+
+footer {
+    color:aliceblue
+}
+
+
+
+    

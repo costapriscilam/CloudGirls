@@ -1,0 +1,10 @@
+body{
+    background-color: indigo ;
+    color: white
+}
+
+a {
+    color: white;
+    border-style: outset;
+    background-color: green
+}
