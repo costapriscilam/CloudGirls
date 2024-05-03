@@ -72,12 +72,19 @@
             <li class="opções__item"><a href="#" class="opções__link"> Favoritos</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
         </ul>
-
     
     <div class="container">
-            <a href="#"><img src="assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-            <a href="#"><img src="assets/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
-            <a href="#"><img src="assets/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+            <a href="#" class="container__link">
+                <img src="assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/Compras.svg" alt="Carrinho de Compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/Usuário.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
     </header>
 
@@ -89,6 +96,7 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
     
+    <div class="carrossel__container">
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -137,10 +145,12 @@
             <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
     </div>
+</div>
     </section>
 
     <section class=”carrossel”>
         <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel__container">
         <!-- Slider main container -->
         <div class="swiper">
         <!-- Additional required wrapper -->
@@ -190,7 +200,8 @@
             <!-- 2º coluna -->
             <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
-    </div>
+         </div>
+        </div>
     </section>
 
     <section class="tópicos">
